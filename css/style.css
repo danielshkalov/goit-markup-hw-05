@@ -60,7 +60,7 @@ body {
     padding: 24px 0;
 }
 
-::after {
+.header-span::after {
     content: "";
     width: 100%;
     position: absolute;
