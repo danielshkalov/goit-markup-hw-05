@@ -806,7 +806,7 @@ input:focus + .input-list {
 }
 
 
-.visually-hidden:checked +.four-time-list .four_list {
+input + label .four_list {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;;
