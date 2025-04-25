@@ -807,7 +807,7 @@ input:focus + .input-list {
     fill: transparent;
 }
 
-input + label .four_list {
+input:checked + label .four_list {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;;
