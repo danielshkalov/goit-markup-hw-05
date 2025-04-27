@@ -5,6 +5,8 @@ body {
 }
 
 
+/*section header*/
+
 .header {
     width: 1440px;
     height: 72px;
@@ -23,6 +25,7 @@ body {
 
 .header-nav {
     display: flex;
+    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -49,26 +52,19 @@ body {
     margin: 0;
 }
 
-.contac .contacts-logo {
-    color: #404BBF;
-}
+
 
 .contacts-logo {
+    display: block;
     text-decoration: none;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 24px 0;
 }
 
-.header-span::after {
-    content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
+
+.address-list-item {
+    margin-left: auto;
 }
 
 
@@ -90,6 +86,7 @@ body {
 
 
 .header-logo {
+    text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -117,6 +114,21 @@ body {
     color: #404bbf;
  }
 
+ .current::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+ }
+
+ .current {
+    color: #404BBF;
+ }
+
 
  .address-logo {
     list-style: none;
@@ -138,7 +150,10 @@ body {
     color: #404bbf;
  }
 
+ /*end secrion header*/
 
+
+/*secrion 1*/
 
 
 .section-logo {
@@ -197,6 +212,8 @@ body {
     color: #FFFFFF;
     cursor: pointer;
 }
+
+/*end section 1*/
 
   /* .section2 */
 
@@ -265,6 +282,10 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/*end section 2*/
+
+
 
 /* .section3 */
 
@@ -387,6 +408,12 @@ body {
 }
 
 
+/*end section 3*/
+
+
+/*section 4*/
+
+
 
 .portfolio {
     padding-top: 120px;
@@ -480,6 +507,12 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+
+/*end section 4*/
+
+
+/*section footer*/
 
 .footer {
     padding: 100px 0;
@@ -640,8 +673,12 @@ body {
     margin-left: 16px;
 }
 
+/*end section footer*/
+
 
 /*backdrop*/
+
+
 .backdrop {
     position: fixed;
     top: 0;
@@ -794,6 +831,7 @@ input:focus + .input-list {
 }
 
 .four_list {
+    margin: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -818,11 +856,9 @@ input:checked + label .four_list {
     text-decoration: none;
 }
 
-.four-list-tomi {
-    fill: #4D5AE5;
-}
 
 .four_otem {
+    margin: 0 auto;
     font-weight: 500;
     min-width: 169px;
     display: block;
@@ -837,3 +873,5 @@ input:checked + label .four_list {
     background-color: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/*end section backdrop*/
